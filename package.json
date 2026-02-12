@@ -1,28 +1,28 @@
 {
   "name": "practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tailwind CSS project ready for Netlify deployment",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --minify",
+    "build": "mkdir -p dist && npx tailwindcss -i ./src/style.css -o ./dist/output.css --minify",
+    "start": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/asraful2002/tailwind-practice-.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/asraful2002/tailwind-practice-/issues"
   },
   "homepage": "https://github.com/asraful2002/tailwind-practice-#readme",
   "devDependencies": {
+    "tailwindcss": "^3.4.19",
     "autoprefixer": "^10.4.24",
     "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.19",
     "vite": "^7.3.1"
   },
   "dependencies": {
