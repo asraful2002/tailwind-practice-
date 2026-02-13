@@ -1,107 +1,84 @@
 <!doctype html>
-<html lang="en" class="dark" id="main">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/output.css" />
-    <link rel="stylesheet" href="dist/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>PWSkills - a web page development class</title>
   </head>
-  <body class="bg-gray-200 dark:bg-gray-900 grid place-content-center h-screen">
-    <div
-      class="w-10 h-10 bg-violet-400 mx-auto rounded-full ring-2 ring-violet-600 border-dashed m-[20px]"
-    ></div>
-
-    <ul class="">
-      <li class="bg-blue-200 rounded-full sm:bg-pink-400 text-center">
-        Asraful
-      </li>
-    </ul>
-    <!-- <button class="btn-primary">subscribe</button>
-    <button class="btn-primary">subscribe</button>
-    <button class="btn-primary">subscribe</button>
-    <button class="btn-primary">subscribe</button> -->
-    <!-- <div class="bg-pink-400 w-10 h-10 mx-auto"></div> -->
-    <!-- <button id="dark">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="size-6"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
-        />
-      </svg>
-    </button> -->
-
-    <div class="mt-2">
-      <div
-        class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4"
-      >
-        <div>
-          <img
-            class="h-12 w-12"
-            src="https://images.seeklogo.com/logo-png/47/1/physics-wallah-logo-png_seeklogo-474856.png"
-            alt=""
-          />
-        </div>
-        <div>
-          <div class="text-3xl font-medium text-black">
-            tailwind class
-            <p class="text-slate-500 mx-auto">asraful</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button
-      class="bg-sky-500 text-center mt-2 text-white text-base p-2 rounded-xl hover:bg-white hover:text-black"
+  <body class="bg-slate-950">
+    <!-- navebar goes here -->
+    <nav
+      class="w-full h-14 bg-indigo-200 flex justify-between px-4 md:px-4 items-center"
     >
-      😘👇
-    </button>
-    <div class="text-center my-4">
-      <p class="text-black md:text-green-500 sm:text-red-600">
-        You are my love.
-      </p>
-    </div>
-    <div class="mt-3">
+      <div class="text-2xl text-indigo-700 font-bold">PW Skills</div>
+      <ul class="md:flex hidden font-semibold">
+        <li class="mx-[10px] cursor-pointer">Home</li>
+        <li class="mx-[10px] cursor-pointer">About Us</li>
+        <li class="mx-[10px] cursor-pointer">Contract Us</li>
+      </ul>
       <div
-        class="max-w-sm mx-auto bg-white rounded-xl overflow-hidden h-25 w-39 md:max-w-2xl"
+        class="hidden md:block px-2 py-2 bg-indigo-700 text-white rounded font-bold cursor-pointer"
       >
-        <div class="md:flex">
-          <div>
-            <img
-              class="h-48 w-full object-cover md:h-full md:w-48"
-              src="israt.jpeg"
-              alt=""
-            />
-          </div>
-          <div class="p-8">
-            <div
-              class="uppercase tracking-wide text-sm text-indigo-500 font-bold"
-            >
-              My Queen👸
-            </div>
-            <a
-              href=""
-              class="block mt-1 text-lg font-medium hover:text-pink-400"
-              >তুমি আমার জীবনের সবচেয়ে সুন্দর অনুভূতি 💖</a
-            >
-            <p class="text-slate-600">
-              তোমাকে পাওয়ার পর থেকেই আমার পৃথিবীটা অন্যরকম হয়ে গেছে। তোমার হাসি
-              আমার শক্তি, তোমার কথা আমার শান্তি। প্রতিদিন আমি শুধু চাই তোমাকে
-              আরও বেশি খুশি দেখতে।
-            </p>
-          </div>
+        Login/Singup
+      </div>
+      <div class="md:hidden">
+        <a href="#" class="text-4xl">&#8801;</a>
+      </div>
+    </nav>
+    <!--naver ends here-->
+    <header class="w-full h-auto">
+      <img src="1 image.png" alt="" />
+      <!-- <img src="image 2.pngv" alt="im" /> -->
+    </header>
+    <!-- our student section -->
+    <div
+      class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10"
+    >
+      <div class="w-full h-auto flex flex-wrap flex-col items-center">
+        <p class="text-indigo-800 font-bold text-3xl md:text-4xl text-center">
+          Pure Hardwork, No Shortcut !
+        </p>
+        <div
+          class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-12"
+        ></div>
+      </div>
+      <div class="w-full flex flex-wrap justify-evenly">
+        <div class="w-46 flex flex-col items-center mb-12">
+          <img class="w-44 h-41" src="img-600.png" alt="" />
+          <p class="text-3xl font-bold text-white">600+</p>
+          <p class="text-3xl font-bold text-gray-500">Different Courses</p>
+        </div>
+
+        <div class="w-46 flex flex-col items-center mb-12">
+          <img class="w-44 h-41" src="img700.png" alt="" />
+          <p class="text-3xl font-bold text-white">70,000+</p>
+          <p class="text-3xl font-bold text-gray-500">Student Enrolled</p>
+        </div>
+
+        <div class="w-46 flex flex-col items-center mb-12">
+          <img class="w-44 h-41" src="img1000.png" alt="" />
+          <p class="text-3xl font-bold text-white">10,000+</p>
+          <p class="text-3xl font-bold text-gray-500">Successful Transition</p>
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
+    <!-- our students section ends here -->
+    <div
+      class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10"
+    >
+      <div class="w-full h-auto flex flex-wrap flex-col items-center">
+        <p class="text-indigo-800 font-bold text-3xl md:text-4xl text-center">
+          Our Products !
+        </p>
+        <div
+          class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-12"
+        ></div>
+      </div>
+      <div class="w-[90%] h-auto flex flex-wrap justify-around">
+        <div></div>
+      </div>
+    </div>
   </body>
 </html>
